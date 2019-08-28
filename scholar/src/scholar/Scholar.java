@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package scholar;
 
-/**
- *
- * @author estudiante
- */
+
 public class Scholar {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+      Empleado empleado1=new Empleado();
+      empleado1.nombre= " Juan";
+      empleado1.apellido= " Rodriguez";
+        System.out.println("el empeado se llama " + empleado1.nombre + empleado1.apellido);
+        
+      Estudiante estudiante1=new Estudiante();
+      estudiante1.nombre= " Juan";
+      estudiante1.apellido= " Rodriguez";
+      estudiante1.genero= " Masculino";
+        System.out.println("el estudiante se llama " + estudiante1.nombre + estudiante1.apellido + estudiante1.genero);   
+       
     }
     
 }
